@@ -32,29 +32,15 @@ public class SpringApplet extends JApplet {
 		Vector2D iloczyn_wektorow = new Vector2D();
 		iloczyn_wektorow = vektor1.iloczyn(stala);
 		
-		System.out.println("Warto�� pierwszego wektora wynosi: " + "("+vektor1.x +", " +vektor1.y+")");
-		System.out.println("Warto�� drugiego wektora wynosi: "+ "("+vektor2.x + ", " + vektor2.y+")");
-		System.out.println("Suma wektor�w wynosi: (" + suma_wektorow.x + ", " + suma_wektorow.y + ")");
-		System.out.println("R�nica wektorow wynosi: (" + roznica_wektorow.x + ", " + roznica_wektorow.y + ")");
+		System.out.println("Wartoœæ pierwszego wektora wynosi: " + "("+vektor1.x +", " +vektor1.y+")");
+		System.out.println("Wartoœæ drugiego wektora wynosi: "+ "("+vektor2.x + ", " + vektor2.y+")");
+		System.out.println("Suma wektorów wynosi: (" + suma_wektorow.x + ", " + suma_wektorow.y + ")");
+		System.out.println("Ró¿nica wektorow wynosi: (" + roznica_wektorow.x + ", " + roznica_wektorow.y + ")");
 		System.out.println("Znormalizowany wektor pierwszy: (" + znormalizowany_wektor1.x + ", " + znormalizowany_wektor1.y+ ")");
 		System.out.println("Znormalizowany wektor drugi: (" + znormalizowany_wektor2.x + ", " + znormalizowany_wektor2.y+ ")");
-		System.out.println("D�ugo�� pierwszego wektora wynosi: " + dlugosc_wektora1 );
-		System.out.println("D�ugo�� drugiego wektora wynosi: " + dlugosc_wektora2 );
-		System.out.println("Iloczyn pierwszego wektora i sta�ej r�wnej 4 wynosi: (" + iloczyn_wektorow.x +", "+ iloczyn_wektorow.y + ")");
-		
-		
-		
-		
-		
-		
-		
-		
-		
-		
-				
-		
-		
-		
+		System.out.println("D³ugoœæ pierwszego wektora wynosi: " + dlugosc_wektora1 );
+		System.out.println("D³ugoœæ drugiego wektora wynosi: " + dlugosc_wektora2 );
+		System.out.println("Iloczyn pierwszego wektora i sta³ej równej 4 wynosi: (" + iloczyn_wektorow.x +", "+ iloczyn_wektorow.y + ")");	
 		
 	}
 	public void paint(){
